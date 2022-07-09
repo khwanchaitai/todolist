@@ -47,9 +47,15 @@ export class DashboardComponent implements OnInit {
     })
   }
 
-  completeTask(etask : Task){
-
-    etask.isComplete = true;
+  completeTask(etask : Task) {
+    this.taskObj = etask;
+    this.taskObj.task_done = true;
+    this.crudService.completeTask(this.taskObj).subscribe({next: (res) =>{
+      this.ngOnInit();
+    },error: (error) => {
+      alert("Failed to complete task");
+    }
+    })
   }
 
   editTask() {

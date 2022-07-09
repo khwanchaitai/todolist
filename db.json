@@ -1,29 +1,49 @@
 {
   "task": [
     {
-      "id": 4,
-      "task_name": "เรียน",
-      "isComplete": false
-    },
-    {
-      "id": 5,
-      "task_name": "กินข้าว",
-      "isComplete": false
-    },
-    {
-      "id": 6,
-      "task_name": "ไปโรงเรียน",
-      "isComplete": false
-    },
-    {
       "id": 7,
       "task_name": "นอน",
-      "isComplete": false
+      "task_done": false
     },
     {
       "id": 8,
       "task_name": "เล่นเกม",
-      "isComplete": false
+      "task_done": true
+    },
+    {
+      "id": 9,
+      "task_name": "ดูหนัง",
+      "task_done": false
+    },
+    {
+      "id": 10,
+      "task_name": "ฟังเพลง",
+      "task_done": false
+    },
+    {
+      "id": 13,
+      "task_name": "ไปสวนน้ำ",
+      "task_done": true
+    },
+    {
+      "id": 14,
+      "task_name": "เดินที่สวน",
+      "task_done": false
+    },
+    {
+      "id": 15,
+      "task_name": "เตะบอลกับเพื่อน",
+      "task_done": true
+    },
+    {
+      "id": 16,
+      "task_name": "ไปเดินเขา",
+      "task_done": false
+    },
+    {
+      "id": 17,
+      "task_name": "ไปเที่ยวทะเล",
+      "task_done": true
     }
   ]
 }

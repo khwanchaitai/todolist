@@ -1,5 +1,5 @@
 export class Task {
     id: number = 0;
     task_name : string ='';
-    isComplete: boolean = false;
+    task_done: boolean = false;
 }
