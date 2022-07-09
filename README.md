@@ -28,9 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## USE
-npm install -g @angular/cli
-npm install -g json-server
-npm install
+`npm install -g @angular/cli`
+`npm install -g json-server`
+`npm install`
 
-json-server --watch db.json
-ng serve --open
+`json-server --watch db.json`
+`ng serve --open`
