@@ -33,4 +33,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `npm install`
 
 `json-server --watch db.json`
+`http://localhost:3000/`
+`http://localhost:3000/task`
+
 `ng serve --open`
+`http://localhost:4200/`
